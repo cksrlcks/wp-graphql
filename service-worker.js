@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wp-graphql/precache-manifest.aed7642b07219f317b9262602b2085f2.js"
+  "/wp-graphql/precache-manifest.6f7e809ab76a553cb10a5a3da1d6b8af.js"
 );
 
 self.addEventListener('message', (event) => {
