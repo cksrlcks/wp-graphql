@@ -3,8 +3,15 @@ import { NavLink } from 'react-router-dom';
 import { gql } from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
 import Search from './Search';
+import { css } from "@emotion/core";
+import { BeatLoader } from "react-spinners";
 
-
+const override = css`
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%);
+`
 
 const GET_PROFILE = gql`
 {
@@ -24,7 +31,11 @@ const Nav = () => {
     return (
         <aside className="aside">
             <section className="profile">
-                {loading ? <span className="profile_loading">loading</span> :
+                {loading ? <BeatLoader
+                    size={10}
+                    css={override}
+                    color={"#01c080"}
+                /> :
                     <>
                         <figure className="site_pic"></figure>
                         <figure className="profile_pic">
@@ -34,7 +45,7 @@ const Nav = () => {
                         </figure>
                         <div className="site_info">
                             <h1 className="title">{data?.generalSettings.title}</h1>
-                            <a href={data?.generalSettings.url} className="url" target="_blank" rel="noopener noreferrer">{data?.generalSettings.url}</a>
+                            <a href="https://heavybear.net" className="url" target="_blank" rel="noopener noreferrer">https://heavybear.net</a>
                             <p className="description" dangerouslySetInnerHTML={{ __html: data?.generalSettings.description }}></p>
                         </div>
                     </>

@@ -7,6 +7,10 @@
     border:1px solid $grey-3;
     border-radius: 4px;
     overflow: hidden;
+    transition: all 0.2s;
+    &:hover{
+        border-color: $grey-4;
+    }
 
     .poster{
         width:100%;
@@ -19,11 +23,12 @@
     .title{
         font-size:18px;
         font-weight:700;
-        padding:2em 1.78em 0em;
+        padding:2em 2rem 0em;
     }
 
     .content{
-        padding:1em 2em 1.5em;
+        font-size: 0.9em;
+        padding:1em 2rem 1.5em;
         line-height: 1.5em;
         letter-spacing: 0.02em;
     }
@@ -55,7 +60,7 @@
         }
     }
     .meta{
-        font-size:14px;
+        font-size:0.8em;
         padding:1em 2.3em;
         border-top:1px solid $grey-2;
         background:$grey-1;
@@ -71,7 +76,7 @@
             }
 
             .post_icon{
-                font-size:13px;
+                font-size:0.9em;
                 margin-right:0.5em;
                 opacity:0.5
             }
