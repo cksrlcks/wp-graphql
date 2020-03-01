@@ -41,7 +41,7 @@
         text-align: left;
         padding-bottom: 1em;
         margin-bottom: 2em;
-        border-bottom:1px solid $grey-1;
+        border-bottom:1px solid $grey-3;
 
         p{
             display: inline-block;
@@ -98,5 +98,6 @@
         line-height: 1.3em;
         padding: 2em 3em;
         border-radius: 4px;
+        overflow-x: auto;
     }
 }
