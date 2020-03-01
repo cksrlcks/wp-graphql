@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import ScrollIntoView from "./components/ScrollIntoView";
 import Post from './components/Post';
 import Recent from './routes/Recent';
@@ -14,7 +14,7 @@ import './css/layout.scss'
 function App() {
 
   return (
-    <Router basename="/wp-graphql">
+    <HashRouter basename="/wp-graphql">
       <ScrollIntoView>
         <div className="wrap">
           <Nav />
@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
       </ScrollIntoView>
-    </Router>
+    </HashRouter>
   );
 }
 
