@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { gql } from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
+import Search from './Search';
+
+
 
 const GET_PROFILE = gql`
 {
@@ -46,6 +49,7 @@ const Nav = () => {
                     <li><NavLink to="/Blog" activeClassName="active">Blog</NavLink></li>
                 </ul>
             </nav>
+            <Search />
         </aside>
     )
 }

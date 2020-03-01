@@ -2,7 +2,7 @@ import React from 'react';
 import { gql } from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
 import '../css/post.scss';
-import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { faPen, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { css } from "@emotion/core";
@@ -36,7 +36,7 @@ const GET_SINGLE_POST = gql`
   }
 `;
 
-const Post = ({ match }) => {
+const Post = ({ match, history }) => {
     const POST_ID = match.params.id;
     const { loading, error, data } = useQuery(GET_SINGLE_POST, {
         variables: { id: POST_ID }
@@ -44,8 +44,10 @@ const Post = ({ match }) => {
     const content = () => {
         return { __html: data?.post.content }
     }
+
     return (
         < div className="post_wrap" >
+
             {error ? <p className="error_message">포스트를 불러오는데 실패했습니다</p> :
                 loading ? <BeatLoader
                     size={10}
@@ -53,6 +55,7 @@ const Post = ({ match }) => {
                     color={"#01c080"}
                 /> :
                     <>
+                        <button onClick={history.goBack} className="go_back"><FontAwesomeIcon icon={faArrowLeft} className="post_icon" /><i>List</i></button>
                         <h3 className="title">{data?.post?.title}</h3>
                         <div className="meta">
                             <p className="date"><FontAwesomeIcon icon={faCalendar} className="post_icon" />{formatDate(data?.post.date)}</p>

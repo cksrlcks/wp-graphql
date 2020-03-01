@@ -14,7 +14,7 @@ import './css/layout.scss'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/wp-graphql">
       <ScrollIntoView>
         <div className="wrap">
           <Nav />
