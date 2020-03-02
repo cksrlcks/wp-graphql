@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2747fb34769e16bee7759ed47abda25d",
+    "revision": "abca58bea9dfc988b78611a1b2f08d30",
     "url": "/wp-graphql/index.html"
   },
   {
-    "revision": "c07856539beede62ee55",
+    "revision": "99e40790baccbfb808a8",
     "url": "/wp-graphql/static/css/main.6b82d2b7.chunk.css"
   },
   {
-    "revision": "0126bf1ef6fc2f03d392",
-    "url": "/wp-graphql/static/js/2.1e47875c.chunk.js"
+    "revision": "c656b1ab9b034dd04392",
+    "url": "/wp-graphql/static/js/2.bec709c2.chunk.js"
   },
   {
     "revision": "e2eae84c7a1d31e04c786e0eb21cdeb1",
-    "url": "/wp-graphql/static/js/2.1e47875c.chunk.js.LICENSE.txt"
+    "url": "/wp-graphql/static/js/2.bec709c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c07856539beede62ee55",
-    "url": "/wp-graphql/static/js/main.743d0a2f.chunk.js"
+    "revision": "99e40790baccbfb808a8",
+    "url": "/wp-graphql/static/js/main.7ba2fb23.chunk.js"
   },
   {
     "revision": "2a559723d80bf72cec67",
