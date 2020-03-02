@@ -16,6 +16,7 @@
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
+    "core-js": "^3.6.4",
     "gh-pages": "^2.2.0",
     "graphql": "^14.6.0",
     "node-sass": "^4.13.1",
@@ -27,6 +28,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-spinners": "^0.8.0",
+    "regenerator-runtime": "^0.13.3",
     "styled-components": "^5.0.1"
   },
   "scripts": {
