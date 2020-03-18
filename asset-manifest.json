@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/wp-graphql/static/css/main.753e7bc9.chunk.css",
-    "main.js": "/wp-graphql/static/js/main.529f2642.chunk.js",
+    "main.css": "/wp-graphql/static/css/main.6b82d2b7.chunk.css",
+    "main.js": "/wp-graphql/static/js/main.15a52209.chunk.js",
+    "main.js.map": "/wp-graphql/static/js/main.15a52209.chunk.js.map",
     "runtime-main.js": "/wp-graphql/static/js/runtime-main.e8341b92.js",
-    "static/js/2.bec709c2.chunk.js": "/wp-graphql/static/js/2.bec709c2.chunk.js",
+    "runtime-main.js.map": "/wp-graphql/static/js/runtime-main.e8341b92.js.map",
+    "static/js/2.da914309.chunk.js": "/wp-graphql/static/js/2.da914309.chunk.js",
+    "static/js/2.da914309.chunk.js.map": "/wp-graphql/static/js/2.da914309.chunk.js.map",
     "index.html": "/wp-graphql/index.html",
-    "precache-manifest.35655ab480830e347ee995d7da811653.js": "/wp-graphql/precache-manifest.35655ab480830e347ee995d7da811653.js",
+    "precache-manifest.f60879b8daf09f14469a7086aa56abc2.js": "/wp-graphql/precache-manifest.f60879b8daf09f14469a7086aa56abc2.js",
     "service-worker.js": "/wp-graphql/service-worker.js",
-    "static/js/2.bec709c2.chunk.js.LICENSE.txt": "/wp-graphql/static/js/2.bec709c2.chunk.js.LICENSE.txt"
+    "static/css/main.6b82d2b7.chunk.css.map": "/wp-graphql/static/css/main.6b82d2b7.chunk.css.map",
+    "static/js/2.da914309.chunk.js.LICENSE.txt": "/wp-graphql/static/js/2.da914309.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8341b92.js",
-    "static/js/2.bec709c2.chunk.js",
-    "static/css/main.753e7bc9.chunk.css",
-    "static/js/main.529f2642.chunk.js"
+    "static/js/2.da914309.chunk.js",
+    "static/css/main.6b82d2b7.chunk.css",
+    "static/js/main.15a52209.chunk.js"
   ]
 }
